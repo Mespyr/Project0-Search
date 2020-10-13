@@ -1,0 +1,322 @@
+$averwidth: 400px;
+$textspot: center;
+$linksize: 13px;
+.asetodea:link {
+    font-size: $linksize;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+.asetodea:visited {
+    font-size: $linksize;
+    color: rgba(0,0,0,0.87);
+    text-decoration:none;
+}
+
+.asetodea:hover {
+    text-decoration:underline;
+}
+
+.link {
+    text-align: end;
+    padding: 20px;
+    margin-right: 10px;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+.areaofstuff {
+    display: block;
+    max-width: 1140px;
+    min-width: 200px;
+    margin-top: 40px;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    margin-left: 45px;
+}
+@media (max-width: 1056px) {
+    .dissapper{
+        display: none;
+    }
+}
+@media (min-width: 1056px) {
+    .dissapper{
+        display: inline-block;
+    }
+}
+.adselect {
+    height: 25px;
+    border-top-color: rgb(192, 192, 192);
+    border-left-color: rgb(217, 217, 217);
+    border-right-color: rgb(217, 217, 217);
+    border-bottom-color: rgb(217, 217, 217);
+    border-style: solid;
+    border-width: 1px;
+    width: 100%; 
+    text-align: left;
+}
+#specbut {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 49%;
+}
+#adbutt {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border-color: lightblue;
+    color: white;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    border: 1px solid rgb(48, 121, 237);
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px; 
+}
+#adbutt:hover {
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4680df);
+    border: 1px solid #396bb9;
+}
+#layer1 {
+    background-color: rgb(241, 241, 233);
+}
+#layer2 {
+    background-color: rgb(241, 241, 241); 
+    height: 60px; 
+    margin: 0; 
+    padding: 0;
+}
+#whatzit {
+    margin-left: 35px; 
+    margin-top: 25px; 
+    margin-bottom: 25px; 
+}
+#itzname {
+    color: #d93025; 
+    font-size: 20px; 
+    margin-left: 10px;
+}
+#seperation {
+    border-bottom: 1px solid rgb(206, 206, 206); 
+    margin-top: 20px;
+}
+.both {
+    clear: both;
+}
+.bothsize {
+    width: 100%; 
+    clear: both;
+}
+#ininstruct {
+    float: left; 
+    display: inline-block; 
+    min-width: 167px; 
+    width: 16%; 
+    font-size: 16px; 
+    height: 42px; 
+    font-weight: 500; 
+    color: #333; 
+    vertical-align: middle;
+}
+.explicit {
+    height: 30px; 
+    display: table-cell; 
+    vertical-align: middle;
+}
+.textbox {
+    float: left; 
+    display: inline-block; 
+    min-width: 167px; 
+    min-height: 41px; 
+    vertical-align: middle; 
+    width: 50%;
+}
+#secinst {
+    float: left; 
+    width: 33%; 
+    font-size: 13px; 
+    font-weight: 700; 
+    color: #777; 
+    padding-left: 5px; 
+    vertical-align: middle;
+}
+.ideas {
+    float: left; 
+    display: inline-block; 
+    min-width: 167px; 
+    width: 16%; 
+    height: 42px; 
+    color: #222; 
+    font-size: 13px; 
+    line-height: 16px; 
+    vertical-align: middle
+}
+.inputdiv {
+    padding-right: 4px;
+}
+.exmple {
+    font-size: 11px; 
+    color: #666; 
+    font-family: monospace; 
+    white-space: pre;
+}
+.googleonebar {
+    border-radius: 24px; 
+    padding: 8px; 
+    width: $averwidth;
+    outline: none;
+}
+.subbutton {
+    text-align: $textspot;
+    display: inline-block;
+}
+.link {
+    text-align: end;
+    padding: 20px;
+}
+.adselect:focus {
+    outline: 1px solid blue;
+}
+.luckyorig {
+    width: 1000px;
+    text-align: center;
+    display: inline;
+}
+.form {
+    margin-top: 0px; 
+    margin-right: 32px; 
+    margin-bottom: 0px; 
+    margin-left: 32px;
+}
+.subsubarea {
+    max-width: 584px; 
+    padding-top: 6px; 
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 0px; 
+    margin-left: auto;
+}
+.subarea {
+    border: 1px solid #dfe1e5; 
+    width: auto; 
+    border-radius: 24px; 
+    height: 44px;
+}
+.searcharea {
+    display: flex; 
+    padding-top: 5px; 
+    padding-right: 8px; 
+    padding-bottom: 0px; 
+    padding-left: 14px;
+}
+.areaofselect {
+    height: 44px; 
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 0px; 
+    margin-left: auto; 
+    width: 482px;
+}
+.searchdivis {
+    font: 16px arial,sans-serif; 
+    line-height: 34px; 
+    height: 34px
+}
+.onebarinput {
+    margin-top: -37px; 
+    margin-right: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    font-size: 16px; 
+    font-family: arial, sans-serif; 
+    line-height: 34px; 
+    height: 34px; 
+    padding-top: 1px; 
+    padding-right: 2px; 
+    padding-bottom: 1px; 
+    padding-left: 2px; 
+    outline: none; 
+    border: none; 
+    width: 100%;
+}
+.buttondiv {
+    padding-top: 18px; 
+    height: 70px;
+}
+.butitem {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1); 
+    background-color: #f2f2f2; 
+    border: 1px solid rgb(242,242,242); 
+    border-radius: 4px; 
+    min-width: 54px; 
+    margin-top: 11px; 
+    margin-right: 4px; 
+    margin-bottom: 11px; 
+    margin-left: 4px; 
+    padding-top: 0px; 
+    padding-right: 16px; 
+    padding-bottom: 0px; 
+    padding-left: 16px; 
+    font-size: 14px; 
+    line-height: 27px; 
+    height: 36px; 
+    color: #5F6368;
+    outline: none;
+}
+.test:focus {
+    outline: none;
+}
+.hover:hover {
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 4px
+}
+.hovernow:hover {
+    box-shadow: 0 0 4px #ccc;
+}
+#imgplace {
+    min-width: 1139px; 
+    margin-top: 0px; 
+    margin-right: auto; 
+    margin-bottom: 0px; 
+    margin-left: auto;
+}
+.sectofimsp {
+    margin-top: 47px; 
+    height: 200px;
+}
+.padofimg {
+    padding-top: 97px;
+}
+#imgnosp {
+    background-size: 272px 92px;
+    height: 92px;
+    width: 272px; 
+    background: url(googlelogo_color_272x92dp.png);
+}
+#secofsp {
+    font-size: 16px; 
+    line-height: 16px; 
+    font-family: roboto; 
+    left: 215px; 
+    position: relative; 
+    top: 76px; 
+    color: #4285f4;
+}
+.allofimg {
+    display: block;
+}
+.heidiv {
+    height: 200px;
+}
